@@ -1,3 +1,6 @@
+#!/bin/bash
+
+function guessing_game() { local num_files=$(ls -1 | wc -l) local guess
 while true; do
     read -p "How many files are in the current directory? " guess
 
